@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goshen Restaurant - Luxury African Dining</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #F9D423 100%);
+        }
+        .gold-text {
+            background: linear-gradient(135deg, #D4AF37 0%, #F9D423 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-black border-b border-yellow-700 py-4 px-6 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-3xl font-bold gold-text">GOSHEN</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="text-yellow-500 hover:text-yellow-300 transition">Home</a>
+                <a href="#menu" class="text-yellow-500 hover:text-yellow-300 transition">Menu</a>
+                <a href="#about" class="text-yellow-500 hover:text-yellow-300 transition">About</a>
+                <a href="#contact" class="text-yellow-500 hover:text-yellow-300 transition">Contact</a>
+            </div>
+            <button class="md:hidden text-yellow-500">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-black overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="bg-[url('hero.png')] bg-cover bg-center absolute inset-0"></div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 gold-text">GOSHEN</h1>
+            <p class="text-xl md:text-2xl text-yellow-200 mb-8">Luxury African Cuisine in Yaoundé</p>
+            <a href="https://wa.me/237677755646?text=I%20would%20like%20to%20reserve%20a%20table%20at%20Goshen%20Restaurant" class="gold-gradient text-black font-bold py-3 px-8 rounded-full hover:opacity-90 transition">RESERVE A TABLE</a>        
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-4xl font-bold gold-text mb-6">Our Story</h2>
+                    <p class="text-gray-300 mb-4">Goshen Restaurant brings the rich flavors of African cuisine to Yaoundé in an elegant, luxurious setting.</p>
+                    <p class="text-gray-300 mb-4">Our chefs combine traditional recipes with modern techniques to create unforgettable dining experiences.</p>
+                    <p class="text-gray-300">Located before Total Ebom from Rondpoint Damas, Yaoundé, Cameroon.</p>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="relative">
+                        <div class="w-full h-80 bg-yellow-800 rounded-lg overflow-hidden">
+                            <img src="/WhatsApp Image 2025-05-05 at 14.48.43_45f07b11.jpg" alt="Restaurant interior" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 bg-yellow-800 p-4 rounded-lg border-2 border-yellow-600 hidden md:block">
+                            <p class="text-yellow-100 text-sm">Since 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold gold-text mb-16 text-center">African Menu</h2>
+            
+            <!-- 3-column grid menu -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://lapopotedeginetteetseverine.wordpress.com/wp-content/uploads/2018/10/a7680974.jpg')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Ndolé</h3>
+                        <p class="text-gray-400 mb-4">Cameroon's national dish - bitterleaf stew with nuts, fish or meat.</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 5,500</p> -->
+                    </div>
+                </div>
+                
+                <!-- Menu Item 2 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://ourquickbytes.files.wordpress.com/2016/07/cameroonian-poulet-dg.jpg?resize=3000%2C3000')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Poulet DG</h3>
+                        <p class="text-gray-400 mb-4">Executive chicken - a luxurious Cameroonian dish with plantains and vegetables.</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 6,800</p> -->
+                    </div>
+                </div>
+                
+                <!-- Menu Item 3 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP9NX0CFVbCXhqR-wkKaKaXwkRIyweK-YCTg&s')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Eru</h3>
+                        <p class="text-gray-400 mb-4">Traditional forest vegetable soup with waterleaf, palm oil and smoked fish.</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 4,900</p> -->
+                    </div>
+                </div>
+                
+                <!-- Menu Item 4 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/Ekwang.webp?impolicy=slurrp-20210601&width=1200&height=900&q=75')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Ekwang</h3>
+                        <p class="text-gray-400 mb-4">a traditional Cameroonian and Nigerian dish made with freshly grated cocoyams (taro) wrapped in cocoyam leaves and cooked with red palm oil and various other ingredient</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 7,200</p> -->
+                    </div>
+                </div>
+                
+                <!-- Menu Item 5 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZ2k14r97YElPb7UbqnlAg49n4s-f1hQkxQ&s')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Fried Rice</h3>
+                        <p class="text-gray-400 mb-4">The famous West African one-pot rice dish with tomatoes and spices.</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 5,000</p> -->
+                    </div>
+                </div>
+                
+                <!-- Menu Item 6 -->
+                <div class="bg-black rounded-lg overflow-hidden border border-yellow-800 hover:border-yellow-500 transition">
+                    <div class="h-48 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKVZ9oJOO7AkMDjPQJz8RQeV4PxAafXVRbrA&s')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold gold-text mb-2">Pepper Soup</h3>
+                        <p class="text-gray-400 mb-4">Spicy broth with goat meat or fish, infused with African spices.</p>
+                        <!-- <p class="text-yellow-500 font-bold">XAF 4,500</p> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="gold-gradient text-black font-bold py-3 px-8 rounded-full hover:opacity-90 transition">VIEW FULL MENU</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-4xl font-bold gold-text mb-6">Contact Us</h2>
+                    <div class="mb-6">
+                        <h3 class="text-xl font-bold text-yellow-500 mb-2">Location</h3>
+                        <p class="text-gray-300">Before Total Ebom from Rondpoint Damas</p>
+                        <p class="text-gray-300">Yaoundé, Cameroon</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="text-xl font-bold text-yellow-500 mb-2">Phone</h3>
+                        <p class="text-gray-300">677 75 56 46</p>
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="text-xl font-bold text-yellow-500 mb-2">Hours</h3>
+                        <p class="text-gray-300">Monday - Sunday: 10am - 10pm</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold gold-text mb-6">Make a Reservation</h3>
+                        <form id="reservationForm" onsubmit="sendWhatsAppReservation(event)">
+                            <div class="mb-4">
+                                <input type="text" id="fullName" placeholder="Full Name" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <input type="email" id="email" placeholder="Email" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <input type="tel" id="phone" placeholder="Phone" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500" required>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <input type="date" id="reservationDate" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500" required>
+                                </div>
+                                <div>
+                                    <input type="time" id="reservationTime" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500" required>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <textarea id="specialRequests" placeholder="Special Requests" class="w-full bg-gray-800 border border-yellow-800 rounded py-3 px-4 text-gray-200 focus:outline-none focus:border-yellow-500 h-24"></textarea>
+                            </div>
+                            <button type="submit" class="gold-gradient text-black font-bold py-3 px-8 rounded-full hover:opacity-90 transition w-full">BOOK TABLE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-yellow-800 py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="text-3xl font-bold gold-text mb-4">GOSHEN</div>
+                    <p class="text-gray-400">Luxury African Cuisine</p>
+                    <p class="text-gray-400">Lyne Orla kenneorla@gmail.com</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-yellow-500 hover:text-yellow-300 text-2xl"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-yellow-500 hover:text-yellow-300 text-2xl"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-yellow-500 hover:text-yellow-300 text-2xl"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-yellow-800 mt-8 pt-8 text-center text-gray-500">
+                <p>&copy; 2024 Goshen Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function sendWhatsAppReservation(event) {
+            event.preventDefault();
+            
+            // Get form values
+            const fullName = document.getElementById('fullName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const date = document.getElementById('reservationDate').value;
+            const time = document.getElementById('reservationTime').value;
+            const requests = document.getElementById('specialRequests').value;
+            
+            // Format date for display
+            const formattedDate = new Date(date).toLocaleDateString('fr-FR', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            
+            // Create WhatsApp message
+            let message = `New reservation for Goshen Restaurant%0A%0A`;
+            message += `*Full Name:* ${fullName}%0A`;
+            message +=`*Email:* ${email}%0A`;
+            message +=`*Phone:* ${phone}%0A`;
+            message +=`*Date:* ${formattedDate}%0A`;
+            message += `*Time:* ${time}%0A`;
+            if (requests) {
+                message += `*Special Requests:* ${requests}%0A`;
+            }
+            message +=  `%0APlease confirm this reservation.`;
+            
+            // Open WhatsApp with the message
+            window.open(`https://wa.me/237677755646?text=${message}`, '_blank');
+            
+            // Optional: Reset the form
+            document.getElementById('reservationForm').reset();
+        }
+        </script>
+</body>
+</html>
